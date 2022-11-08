@@ -20,7 +20,7 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "resources/js/app.jsx": {
-    "file": "assets/app.05df4a42.js",
+    "file": "assets/app.c28ade91.js",
     "src": "resources/js/app.jsx",
     "isEntry": true,
     "dynamicImports": [
@@ -32,7 +32,7 @@
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard.27fbb919.js",
+    "file": "assets/Dashboard.99b1e4e0.js",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -40,7 +40,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home.ac18806c.js",
+    "file": "assets/Home.b055bae3.js",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
