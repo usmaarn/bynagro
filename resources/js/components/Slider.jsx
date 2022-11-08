@@ -21,9 +21,9 @@ export default function Slider () {
       <div className="relative h-[calc(100vh_-_130px)] text-white">
 
         <div className="absolute z-10 top-0 left-0 bg-black/60 h-full p-5 w-full flex flex-col gap-3 items-center justify-center">
-            <h1 className="text-9xl font-black relative">
+            <h1 className="text-7xl md:text-9xl font-black relative">
                 BYN
-                <p className='absolute top-0 left-full whitespace-nowrap text-xl text-yellow-500 lining-nums'>RC: 1418600</p>
+                <p className='absolute top-0 left-full whitespace-nowrap md:text-xl text-yellow-500 lining-nums'>RC: 1418600</p>
             </h1>
             <h3 className="text-3xl md:text-4xl">AGRO ALLIED NIG LTD.</h3>
             <p className="text-2xl md:text-3xl">We Can Change With Agriculture</p>
