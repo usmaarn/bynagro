@@ -1,11 +1,11 @@
 {
-  "node_modules/slick-carousel/slick/ajax-loader.gif": {
-    "file": "assets/ajax-loader.e7b44c86.gif",
-    "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
-  },
   "node_modules/slick-carousel/slick/fonts/slick.eot": {
     "file": "assets/slick.06d80cf0.eot",
     "src": "node_modules/slick-carousel/slick/fonts/slick.eot"
+  },
+  "node_modules/slick-carousel/slick/ajax-loader.gif": {
+    "file": "assets/ajax-loader.e7b44c86.gif",
+    "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
   },
   "node_modules/slick-carousel/slick/fonts/slick.woff": {
     "file": "assets/slick.26726bac.woff",
@@ -20,106 +20,19 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "resources/js/app.jsx": {
-    "file": "assets/app.8516ac86.js",
+    "file": "assets/app.72615dd2.js",
     "src": "resources/js/app.jsx",
     "isEntry": true,
     "dynamicImports": [
-      "resources/js/Pages/Auth/ConfirmPassword.jsx",
-      "resources/js/Pages/Auth/ForgotPassword.jsx",
-      "resources/js/Pages/Auth/Login.jsx",
-      "resources/js/Pages/Auth/Register.jsx",
-      "resources/js/Pages/Auth/ResetPassword.jsx",
-      "resources/js/Pages/Auth/VerifyEmail.jsx",
       "resources/js/Pages/Dashboard.jsx",
       "resources/js/Pages/Home.jsx"
     ],
     "css": [
-      "assets/app.f9d7943d.css"
-    ]
-  },
-  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
-    "file": "assets/ConfirmPassword.94a7298c.js",
-    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js",
-      "_TextInput.bfb1ca01.js",
-      "_InputLabel.49faa317.js"
-    ]
-  },
-  "_PrimaryButton.d90bb596.js": {
-    "file": "assets/PrimaryButton.d90bb596.js",
-    "imports": [
-      "resources/js/app.jsx"
-    ]
-  },
-  "_TextInput.bfb1ca01.js": {
-    "file": "assets/TextInput.bfb1ca01.js",
-    "imports": [
-      "resources/js/app.jsx"
-    ]
-  },
-  "_InputLabel.49faa317.js": {
-    "file": "assets/InputLabel.49faa317.js",
-    "imports": [
-      "resources/js/app.jsx"
-    ]
-  },
-  "resources/js/Pages/Auth/ForgotPassword.jsx": {
-    "file": "assets/ForgotPassword.f718f333.js",
-    "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js",
-      "_TextInput.bfb1ca01.js"
-    ]
-  },
-  "resources/js/Pages/Auth/Login.jsx": {
-    "file": "assets/Login.98435dfc.js",
-    "src": "resources/js/Pages/Auth/Login.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js",
-      "_TextInput.bfb1ca01.js",
-      "_InputLabel.49faa317.js"
-    ]
-  },
-  "resources/js/Pages/Auth/Register.jsx": {
-    "file": "assets/Register.dff2fe78.js",
-    "src": "resources/js/Pages/Auth/Register.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js",
-      "_TextInput.bfb1ca01.js",
-      "_InputLabel.49faa317.js"
-    ]
-  },
-  "resources/js/Pages/Auth/ResetPassword.jsx": {
-    "file": "assets/ResetPassword.6ab44d2e.js",
-    "src": "resources/js/Pages/Auth/ResetPassword.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js",
-      "_TextInput.bfb1ca01.js",
-      "_InputLabel.49faa317.js"
-    ]
-  },
-  "resources/js/Pages/Auth/VerifyEmail.jsx": {
-    "file": "assets/VerifyEmail.9f801a3b.js",
-    "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_PrimaryButton.d90bb596.js"
+      "assets/app.4d27482e.css"
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard.67bb0bc3.js",
+    "file": "assets/Dashboard.72f1d56e.js",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -127,7 +40,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home.6d68e5d2.js",
+    "file": "assets/Home.b488ceb3.js",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -149,7 +62,7 @@
     "src": "resources/js/Pages/Home.css"
   },
   "resources/js/app.css": {
-    "file": "assets/app.f9d7943d.css",
+    "file": "assets/app.4d27482e.css",
     "src": "resources/js/app.css"
   }
 }
