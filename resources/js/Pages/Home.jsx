@@ -16,7 +16,7 @@ export default function Home() {
 
                 <div className="relative skew-y-1 bg-black overflow-hidden">
 
-                    <img src="/slideshow/grains.jpg" className="absolute left-0 top-0 scale-110 -z-10 opacity-50 h-full w-full object-fill" alt="" />
+                    <img src="/images/slideshow/grains.jpg" className="absolute left-0 top-0 scale-110 -z-10 opacity-50 h-full w-full object-fill" alt="" />
 
                     <div className="md:w-1/2 bg-green-500/60 px-5 py-10 md:p-24 md:float-right">
                         <div className="-skew-y-3 space-y-10">
