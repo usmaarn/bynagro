@@ -24,7 +24,7 @@ export default function Slider () {
             let slides = document.querySelectorAll('.slide');
             slides.forEach(slide => {
                 let img = slide.getAttribute("data-image");
-                slide.style.backgroundImage = `linear-gradient(to right, rgba(0,0,0,0.3), green) url("/slideshow/cattle.jpg")`;
+                slide.style.backgroundImage = `linear-gradient(to right, rgba(0,0,0,0.3), green) url("/images/slideshow/cattle.jpg")`;
             })
         }
     })
@@ -44,22 +44,22 @@ export default function Slider () {
 
         <SlickSlider {...settings}>
             <div className="h-[calc(100vh_-_130px)] opacity-10">
-                <img src="slideshow/cattle.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/cattle.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
             <div className="h-[calc(100vh_-_130px)]">
-                <img src="slideshow/cashewnut.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/cashewnut.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
             <div className="h-[calc(100vh_-_130px)]">
-                <img src="slideshow/ginger.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/ginger.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
             <div className="h-[calc(100vh_-_130px)]">
-                <img src="slideshow/grains.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/grains.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
             <div className="h-[calc(100vh_-_130px)]">
-                <img src="slideshow/moringa.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/moringa.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
             <div className="h-[calc(100vh_-_130px)]">
-                <img src="slideshow/rice.jpg" alt="image" className="object-cover w-full h-full" />
+                <img src="images/slideshow/rice.jpg" alt="image" className="object-cover w-full h-full" />
             </div>
         </SlickSlider>
       </div>
