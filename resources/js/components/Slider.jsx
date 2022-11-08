@@ -1,10 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-import React, { Component } from "react";
 import SlickSlider from "react-slick";
-import { useEffect } from "react";
 
 export default function Slider () {
 
@@ -18,16 +15,6 @@ export default function Slider () {
       draggable: true,
       fade: true,
     };
-
-    useEffect(() => {
-        if(typeof window != 'undefined'){
-            let slides = document.querySelectorAll('.slide');
-            slides.forEach(slide => {
-                let img = slide.getAttribute("data-image");
-                slide.style.backgroundImage = `linear-gradient(to right, rgba(0,0,0,0.3), green) url("/images/slideshow/cattle.jpg")`;
-            })
-        }
-    })
 
 
     return (
@@ -43,23 +30,23 @@ export default function Slider () {
         </div>
 
         <SlickSlider {...settings}>
-            <div className="h-[calc(100vh_-_130px)] opacity-10">
-                <img src="images/slideshow/cattle.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide opacity-10">
+                <img data-src="images/slideshow/cattle.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
-            <div className="h-[calc(100vh_-_130px)]">
-                <img src="images/slideshow/cashewnut.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide">
+                <img data-src="images/slideshow/cashewnut.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
-            <div className="h-[calc(100vh_-_130px)]">
-                <img src="images/slideshow/ginger.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide">
+                <img data-src="images/slideshow/ginger.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
-            <div className="h-[calc(100vh_-_130px)]">
-                <img src="images/slideshow/grains.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide">
+                <img data-src="images/slideshow/grains.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
-            <div className="h-[calc(100vh_-_130px)]">
-                <img src="images/slideshow/moringa.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide">
+                <img data-src="images/slideshow/moringa.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
-            <div className="h-[calc(100vh_-_130px)]">
-                <img src="images/slideshow/rice.jpg" alt="image" className="object-cover w-full h-full" />
+            <div className="slide">
+                <img data-src="images/slideshow/rice.jpg" alt="image" className="load-img object-cover w-full h-full" />
             </div>
         </SlickSlider>
       </div>

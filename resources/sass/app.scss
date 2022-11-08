@@ -14,13 +14,17 @@ body{
 
 header.header {
     nav {
-        @apply h-[50px] border-y flex justify-center font-medium;
+        @apply h-[50px] w-screen overflow-x-auto border-y flex justify-center font-medium;
 
         a {
             line-height: 50px;
             @apply hover:bg-green-500/50 px-5 transition duration-500;
         }
     }
+}
+
+.slide {
+    @apply h-[calc(100vh_-_130px)];
 }
 
 @tailwind base;

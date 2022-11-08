@@ -1,7 +1,19 @@
 import Slider from "@/components/Slider";
 import PageLayout from "@/Layouts/PageLayout";
+import { useEffect } from "react";
 
 export default function Home() {
+
+    useEffect(() => {
+        if(typeof window != 'undefined'){
+            let slides = document.querySelectorAll('.load-img');
+            slides.forEach(slide => {
+                let img = slide.getAttribute("data-src");
+                slide.src = img;
+            })
+        }
+    })
+
     return (
         <PageLayout>
             <div className="space-y-10">
@@ -16,7 +28,7 @@ export default function Home() {
 
                 <div className="relative skew-y-1 bg-black overflow-hidden">
 
-                    <img src="/images/slideshow/grains.jpg" className="absolute left-0 top-0 scale-110 -z-10 opacity-50 h-full w-full object-fill" alt="" />
+                    <img data-src="/images/slideshow/grains.jpg" className="load-img absolute left-0 top-0 scale-110 -z-10 opacity-50 h-full w-full object-fill" alt="" />
 
                     <div className="md:w-1/2 bg-green-500/60 px-5 py-10 md:p-24 md:float-right">
                         <div className="-skew-y-3 space-y-10">
