@@ -5,7 +5,7 @@ import {HiOutlineLocationMarker} from 'react-icons/hi';
 export default function PageNavbar() {
 
     return (
-        <header className="h-[130px]">
+        <header className="header h-[130px] sticky top-0 z-50 bg-white">
 
             <section className="top h-[80px] p-5 flex items-center justify-between">
 
@@ -23,9 +23,10 @@ export default function PageNavbar() {
                 </div>
             </section>
 
-            <nav className="h-[50px] border-y flex items-center justify-center gap-5 font-medium">
-                <a href="#" className='hover:border-b-2 border-b-black'>Home</a>
+            <nav>
+                <a href="#">Home</a>
                 <a href="#">Products</a>
+                <a href="#">Services</a>
                 <a href="#">Blogs</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>

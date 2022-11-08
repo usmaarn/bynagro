@@ -12,18 +12,14 @@ body{
     overflow-x: hidden;
 }
 
-.pronema{
-    font-family: 'Crima', sans-serif;
-}
+header.header {
+    nav {
+        @apply h-[50px] border-y flex justify-center font-medium;
 
-.slider {
-
-    @apply bg-black;
-
-    .slide {
-        @apply h-[calc(100vh_-_130px)] flex items-center justify-center space-y-5 text-center text-white;
-        background-size: cover;
-        background-position: center;
+        a {
+            line-height: 50px;
+            @apply hover:bg-green-500/50 px-5 transition duration-500;
+        }
     }
 }
 

@@ -1,11 +1,11 @@
 {
-  "node_modules/slick-carousel/slick/fonts/slick.eot": {
-    "file": "assets/slick.06d80cf0.eot",
-    "src": "node_modules/slick-carousel/slick/fonts/slick.eot"
-  },
   "node_modules/slick-carousel/slick/ajax-loader.gif": {
     "file": "assets/ajax-loader.e7b44c86.gif",
     "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
+  },
+  "node_modules/slick-carousel/slick/fonts/slick.eot": {
+    "file": "assets/slick.06d80cf0.eot",
+    "src": "node_modules/slick-carousel/slick/fonts/slick.eot"
   },
   "node_modules/slick-carousel/slick/fonts/slick.woff": {
     "file": "assets/slick.26726bac.woff",
@@ -20,7 +20,7 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "resources/js/app.jsx": {
-    "file": "assets/app.72615dd2.js",
+    "file": "assets/app.83dbb9bd.js",
     "src": "resources/js/app.jsx",
     "isEntry": true,
     "dynamicImports": [
@@ -28,11 +28,11 @@
       "resources/js/Pages/Home.jsx"
     ],
     "css": [
-      "assets/app.4d27482e.css"
+      "assets/app.6f546ab8.css"
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard.72f1d56e.js",
+    "file": "assets/Dashboard.a28d63fb.js",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -40,7 +40,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home.b488ceb3.js",
+    "file": "assets/Home.05293a5d.js",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -62,7 +62,7 @@
     "src": "resources/js/Pages/Home.css"
   },
   "resources/js/app.css": {
-    "file": "assets/app.4d27482e.css",
+    "file": "assets/app.6f546ab8.css",
     "src": "resources/js/app.css"
   }
 }
