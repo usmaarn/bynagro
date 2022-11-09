@@ -12,8 +12,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Cormorant Garamond", ...defaultTheme.fontFamily.sans],
-                maison: ["Maison Neue"],
+                sans: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
                 poppins: ["Poppins"]
             },
         },

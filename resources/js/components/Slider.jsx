@@ -18,8 +18,8 @@ export default function Slider () {
 
 
     return (
-      <div className="relative h-[calc(100vh_-_130px)] text-white">
-
+      <div className="relative h-[calc(100vh_-_130px)]">
+{/*
         <div className="absolute z-10 top-0 left-0 bg-black/60 h-full p-5 w-full flex flex-col gap-3 items-center justify-center">
             <h1 className="text-7xl md:text-9xl font-black relative">
                 BYN
@@ -27,11 +27,14 @@ export default function Slider () {
             </h1>
             <h3 className="text-3xl md:text-4xl">AGRO ALLIED NIG LTD.</h3>
             <p className="text-2xl md:text-3xl">We Can Change With Agriculture</p>
-        </div>
+        </div> */}
 
         <SlickSlider {...settings}>
             <div className="slide opacity-10">
                 <img data-src="images/slideshow/cattle.jpg" alt="image" className="load-img object-cover w-full h-full" />
+                <div className="">
+                    Importer and Exporter of Agro
+                </div>
             </div>
             <div className="slide">
                 <img data-src="images/slideshow/cashewnut.jpg" alt="image" className="load-img object-cover w-full h-full" />

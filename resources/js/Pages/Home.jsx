@@ -2,6 +2,8 @@ import Slider from "@/components/Slider";
 import PageLayout from "@/Layouts/PageLayout";
 import { useEffect } from "react";
 
+import {MdLabelImportantOutline} from 'react-icons/md';
+
 export default function Home() {
 
     useEffect(() => {
@@ -26,22 +28,60 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="relative skew-y-1 bg-black overflow-hidden">
+                <div className="p-5 md:px-24">
+                    <h1 className="text-2xl text-center font-black">Our Services</h1>
 
-                    <img data-src="/images/slideshow/grains.jpg" className="load-img absolute left-0 top-0 scale-110 -z-10 opacity-50 h-full w-full object-fill" alt="" />
+                    <div className="grid grid-cols-3 gap-5">
+                        <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> Importation and exportation of agro allied products</span>
+                            </h1>
+                        </div>
 
-                    <div className="md:w-1/2 bg-green-500/60 px-5 py-10 md:p-24 md:float-right">
-                        <div className="-skew-y-3 space-y-10">
-                            <h1 className="text-4xl font-black">What We Do</h1>
-                            <p className="text-2xl font-bold">
-                                Importation and
-                                exportation of agro allied products is our first objective, We are also into
-                                drilling of borehole and equipping, supply of agricultural and agro allied
-                                products, manufacturer's representatives for companies and indvidual
-                                proprietors, general contractors, buying and selling of general goods and
-                                services, importer, exporter of retails on building matenal, dealers on
-                                furniture and general merchandising
-                            </p>
+                        <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span>  drilling of borehole and equipping</span>
+                            </h1>
+                        </div>
+
+                        <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> supply of agricultural and agro allied products</span>
+                            </h1>
+                        </div>
+
+                        <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> manufacturer's representatives for companies and indvidual proprietors</span>
+                            </h1>
+                        </div>
+                         <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span>  general contractors</span>
+                            </h1>
+                        </div>
+                         <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> buying and selling of general goods and services</span>
+                            </h1>
+                        </div>
+                         <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> importer and exporter of retails on building matenal</span>
+                            </h1>
+                        </div>
+                         <div className="">
+                            <h1>
+                                <MdLabelImportantOutline />
+                                <span> furniture and general merchandising</span>
+                            </h1>
                         </div>
                     </div>
                 </div>
