@@ -24,25 +24,12 @@
 
         </header>
 
-        <div class="p-5 md:p-10 md:flex-grow flex flex-col-reverse relative md:grid grid-cols-5">
-            <div class="col-span-3">
-                <div class="hidden md:flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="stroke-zinc-400 w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                    </svg>
-                    <p class="font-bold text-3xl text-zinc-400">Comming Soon</p>
-                </div>
-
-                <div class="font-poppins md:py-10">
-                    <example-component></example-component>
-                    <h1 class="text-5xl lg:text-8xl font-black text-center md:text-left">This Website is under construction...</h1>
-                </div>
-
-            </div>
-
+        <div class="p-5 flex-grow flex items-center flex-col gap-5 justify-center">
             <div class="col-span-2 md:scale-125">
                 <img src="/images/mockup.png" alt="" class="h-full">
             </div>
+
+            <a href="/" class="bg-black px-5 py-3 rounded-full text-white">Back to Home</a>
         </div>
 
         <div class="flex items-center justify-center gap-5 text-2xl text-zinc-400 mt-auto p-5">
