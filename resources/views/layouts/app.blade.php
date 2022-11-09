@@ -13,7 +13,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+    @env('local')
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @endenv
+
+    @production
+        <link rel="stylesheet" href="{{ asset('build/assets/app.565ef6d2.css') }}">
+        <script src="{{  asset('build/assets/app.0d313be0.js') }}"></script>
+    @endproduction
 </head>
 <body>
     <div class="">
