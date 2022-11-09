@@ -14,14 +14,8 @@
 
     <!-- Scripts -->
 
-    @env('local')
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    @endenv
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
-    @production
-        <link rel="stylesheet" href="{{ asset('build/assets/app.565ef6d2.css') }}">
-        <script src="{{  asset('build/assets/app.0d313be0.js') }}"></script>
-    @endproduction
 </head>
 <body>
     <div class="">
