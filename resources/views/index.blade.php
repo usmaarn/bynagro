@@ -34,7 +34,8 @@
                 </div>
 
                 <div class="font-poppins md:py-10">
-                    <h1 class="text-5xl lg:text-9xl font-black text-center md:text-left">This Website is under construction...</h1>
+                    <example-component></example-component>
+                    <h1 class="text-5xl lg:text-8xl font-black text-center md:text-left">This Website is under construction...</h1>
                 </div>
 
             </div>
