@@ -1,8 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.swiper {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    @apply bg-gradient-to-r from-black to-blue-900 relative;
+
+    .content {
+        @apply text-white absolute top-1/2 -translate-y-1/2 left-0 p-5 md:p-10 space-y-5 max-w-[1000px];
+
+        .heading {@apply text-3xl md:text-6xl font-bold;}
+        .text {@apply md:text-2xl lg:text-3xl;}
+        .link {@apply inline-block px-5 py-3 bg-green-500 rounded}
+    }
+}
+
+.swiper-slide img {
+    @apply block w-full h-full object-cover opacity-40;
+}
+
+.navmenu {
+    @apply absolute md:static bg-white -left-2/3 top-0 h-screen md:h-auto z-50 w-2/3 md:w-auto p-5 md:p-0 flex
+    justify-center flex-col md:flex-row items-center gap-5 uppercase text-sm transition-all duration-500;
+
+    &.active {
+        @apply left-0;
+    }
+
+    a {
+        @apply hover:text-green-500 hover:border-b-2 border-green-500 transition-all duration-300;
+    }
+}
+
+
+.my-info {
+    background: linear-gradient(to right, rgba(16, 15, 15, 0.874), rgba(3, 48, 3, 0.879)), url("/public/images/slides/ginger.jpg");
+    @apply p-24;
 }
 
 @tailwind base;
