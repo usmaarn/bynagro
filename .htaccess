@@ -1,5 +1,3 @@
-
-
 # php -- BEGIN cPanel-generated handler, do not edit
 
 <IfModule mod_rewrite.c>
@@ -10,9 +8,9 @@
 <IfModule fcgid_module>
     <IfModule mime_module>
         AddHandler fcgid-script .php .php8 .phtml
-        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php80 .php
-        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php80 .php8
-        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php80 .phtml
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php81 .php
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php81 .php8
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php81 .phtml
     </IfModule>
 </IfModule>
 
