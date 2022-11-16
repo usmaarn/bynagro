@@ -23,3 +23,5 @@ Route::get("/about", [PageController::class, "about"])->name("about");
 Route::get("/contact", [PageController::class, "contact"])->name("contact");
 // Route::get("/contact", [PageController::class, "contact"])->name("contact");
 // Route::get("/contact", [PageController::class, "contact"])->name("contact");
+
+include_once __DIR__ . '/auth.php';

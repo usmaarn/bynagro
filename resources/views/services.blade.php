@@ -1,11 +1,11 @@
 @extends("layouts.app")
 
 @section("content")
-    @section("heading")
-        <div class="">
-            <h1 class="text-3xl">Our Services</h1>
-        </div>
-    @endsection
+
+    <x-header>
+        <h1 class="text-3xl">Our Services</h1>
+    </x-header>
+
     <div class="services max-w-[1200px] mx-auto space-y-24">
         <div v-for="service in services" class="service p-5 grid md:grid-cols-2 gap-10">
             <div class="">
