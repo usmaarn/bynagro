@@ -16,9 +16,9 @@
 
     <!-- Scripts -->
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+    {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}" /> --}}
 
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 </head>
 <body>
@@ -30,6 +30,7 @@
 
     </div>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    {{-- <script src="{{ mix('js/app.js') }}"></script> --}}
 </body>
 </html>

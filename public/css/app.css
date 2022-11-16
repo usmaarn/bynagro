@@ -132,7 +132,7 @@ body {
 }
 
 .my-info {
-  background: linear-gradient(to right, rgba(16, 15, 15, 0.874), rgba(3, 48, 3, 0.879)), url("/public/images/slides/ginger.jpg");
+  background: linear-gradient(to right, rgba(16, 15, 15, 0.874), rgba(3, 48, 3, 0.879)), url("/images/slides/ginger.jpg");
   padding: 6rem;
 }
 
@@ -657,6 +657,9 @@ video {
 .mt-auto{
   margin-top: auto;
 }
+.mb-2{
+  margin-bottom: 0.5rem;
+}
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -665,6 +668,12 @@ video {
 }
 .mb-0{
   margin-bottom: 0px;
+}
+.ml-auto{
+  margin-left: auto;
+}
+.inline-block{
+  display: inline-block;
 }
 .flex{
   display: flex;
@@ -692,6 +701,9 @@ video {
 }
 .w-10{
   width: 2.5rem;
+}
+.w-auto{
+  width: auto;
 }
 .flex-grow{
   flex-grow: 1;
@@ -728,11 +740,19 @@ video {
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
 .overflow-hidden{
   overflow: hidden;
 }
 .rounded-full{
   border-radius: 9999px;
+}
+.rounded{
+  border-radius: 0.25rem;
 }
 .bg-orange-400{
   --tw-bg-opacity: 1;
@@ -746,9 +766,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-black{
+.bg-green-500{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -778,6 +798,10 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .py-2\.5{
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -803,6 +827,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -821,6 +849,10 @@ video {
 .text-zinc-400{
   --tw-text-opacity: 1;
   color: rgb(161 161 170 / var(--tw-text-opacity));
+}
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 @media (min-width: 640px){
   .sm\:block{
@@ -854,6 +886,14 @@ video {
   }
   .md\:p-10{
     padding: 2.5rem;
+  }
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
   .md\:text-base{
     font-size: 1rem;

@@ -1,23 +1,19 @@
 {
-  "public/images/slides/ginger.jpg": {
-    "file": "assets/ginger.8477f425.jpg",
-    "src": "public/images/slides/ginger.jpg"
-  },
   "resources/js/app.js": {
-    "file": "assets/app.a43e7bc7.js",
+    "file": "assets/app.2feaf0c2.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
       "assets/app.294ee664.css"
     ]
   },
+  "resources/sass/app.scss": {
+    "file": "assets/app.904bbeca.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
   "resources/js/app.css": {
     "file": "assets/app.294ee664.css",
     "src": "resources/js/app.css"
-  },
-  "resources/sass/app.scss": {
-    "file": "assets/app.f0e3b37f.css",
-    "src": "resources/sass/app.scss",
-    "isEntry": true
   }
 }
