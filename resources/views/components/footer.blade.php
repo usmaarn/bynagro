@@ -1,4 +1,4 @@
-<footer class="bg-black p-5 py-12 sm:p-10 md:p-24 md:grid space-y-10 md:space-y-0 grid-cols-5 gap-10">
+<footer class="bg-[#0A0D35] p-5 py-12 sm:p-10 md:p-24 md:grid space-y-10 md:space-y-0 grid-cols-5 gap-10 font-light">
         <div class="text-white col-span-2 md:pr-10 space-y-5">
             <h1 class="text-3xl">BYN AGRO ALLIED LTD</h1>
             <p class="text-light text-zinc-400">
@@ -7,7 +7,7 @@
             </p>
         </div>
 
-        <ul class="text-zinc-400 tracking-wider space-y-1 uppercase text-sm">
+        <ul class="text-zinc-400 tracking-wider space-y-1 text-sm">
             <li class="uppercase text-base font-medium mb-5">Site Pages</li>
             <li><a href="#" class="hover:underline">Home</a></li>
             <li><a href="#" class="hover:underline">Products</a></li>
@@ -15,7 +15,7 @@
             <li><a href="#" class="hover:underline">Blogs</a></li>
         </ul>
 
-        <ul class="text-zinc-400 tracking-wider space-y-1 uppercase text-sm">
+        <ul class="text-zinc-400 tracking-wider space-y-1 text-sm">
             <li class="uppercase text-base font-medium mb-5">INFO PAGES</li>
             <li><a href="#" class="hover:underline">About Us</a></li>
             <li><a href="#" class="hover:underline">Contact Us</a></li>
@@ -46,14 +46,14 @@
         <div class="flex items-center gap-5 col-span-2 flex-wrap">
             <a href=""
                 v-for="link in ['facebook', 'twitter', 'instagram', 'linkedin', 'youtube']"
-                class="w-10 h-10 flex items-center justify-center border border-zinc-500
-                    text-zinc-500 text-xl hover:bg-zinc-500 hover:text-zinc-900 transition-all duration-300"
+                class="w-10 h-10 flex items-center justify-center border border-zinc-800
+                    text-zinc-700 text-xl hover:bg-zinc-700 hover:text-zinc-900 transition-all duration-300"
             >
                 <i :class="'bi bi-'+ link"></i>
             </a>
         </div>
 
         <div class="col-span-5 text-zinc-500 text-center uppercase">
-            Copyright © 2022 All rights reserved | <a href="#" class="text-primary-500/70 hover:underline">BYN AGRO ALLIED LTD.</a>
+            Copyright © 2022 All rights reserved | <a href="#" class="text-primary/70 hover:underline">BYN AGRO ALLIED LTD.</a>
         </div>
     </footer>

@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">

@@ -41,11 +41,9 @@ const app = createApp({
         return {
             openNavbar: false,
             services,
-        }
+        };
     },
-    methods: {
-
-    }
+    methods: {},
 });
 
 import Slider from "./components/Slider.vue";
